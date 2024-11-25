@@ -91,13 +91,13 @@
         image: './assets/img/image1.png'
       },
       {
-        name: 'Nevada',
+        name: 'Near End',
         singer: 'Vicetone',
         path: './assets/music/song2.mp3',
         image: './assets/img/image1.png'
       },
       {
-        name: 'Nevada',
+        name: 'End',
         singer: 'Vicetone',
         path: './assets/music/song1.mp3',
         image: './assets/img/image1.png'
@@ -202,6 +202,7 @@
       this.currentIndex++
       if(this.currentIndex >= this.songs.length) {
         this.currentSong = 0
+        this.currentIndex = 0
       }
 
     this.loadCurrentSong()
